@@ -9,7 +9,7 @@ Ici se trouve la partie de mesure des oscillations et des déformations de le st
 
 Techniquement, il s'agit d'un programme en deux grandes parties : un <i>back end</i> développé en C/C++ avec la libraire OpenCV et une partie <i>front end</i>, l'interface utilisateur, permettant de rendre compte des mesures faites, en VB.NET.
 
-Pour en savoir plus : <a href="http://asgdev.pimpfr.com/projet/">ici/projet/</a>
+Pour en savoir plus : <a href="http://asgdev.fpimp.com/projet/">ici</a>
 
 
 ### Avançement général :
