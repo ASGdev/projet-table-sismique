@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.bandeau {
+	height:110px;
+	width:116.39%;
+	margin-left:-70px;
+	
+	line-height:110px;
+	text-align:center;
+	background-color:#999;
+}
+
+.titre {
+	font-size:70px;
+	color:#FFF;
+	
+}
+
+.section1 {
+	opacity:0;
+	background-color:#eee;
+	font-family:"Open Sans";
+	color:#333;
+}
+
+.actives {
+	opacity:100;
+	background-color:#069;
+}
+
+.slider {
+	z-index:-50;
+}

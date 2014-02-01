@@ -1,0 +1,136 @@
+/** GENERAL **/
+@font-face {
+	font-family: 'Open Sans';
+	src: url('OpenSans-Light.ttf') format('truetype');
+	font-family: 'Earthquake';
+	src: url('EarthquakeMF.ttf') format('truetype');
+}
+
+body {
+	font-family: Verdana, sans-serif;
+	min-height: 740px;
+	background-image: url(background.jpg);
+	-webkit-background-size: cover;
+	-webkit-font-smoothing: antialiased;
+	font-size:18px;
+}
+
+/** STEP STYLES **/
+.step {
+	width: 1000px;
+    height: 600px;
+	font-size: 1em;
+	min-height: 500px;
+	background-color: white;
+
+	display: block;
+    padding: 40px 70px;
+    border-radius: 10px;
+	margin-right:100px;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, .3);
+
+    color: rgb(102, 102, 102);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    letter-spacing: -1px;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	-ms-box-sizing:     border-box;
+	-o-box-sizing:      border-box;
+	box-sizing:         border-box;
+
+	-webkit-transition: opacity 1s;
+	-moz-transition:    opacity 1s;
+	-ms-transition:     opacity 1s;
+	-o-transition:      opacity 1s;
+	transition:         opacity 1s;
+	
+	font-family:"Open Sans";
+	
+	
+}
+
+/* fade out inactive slides */
+.step:not(.active) {
+	opacity: 0.3;
+}
+
+/* hint on the first slide */
+
+.section {
+	background-color:#666;
+	line-height:600px;
+	
+}
+.section > p {
+	color:#FFF;
+	font-weight:600;
+	font-size:50px;
+	/*font-family:"SansitaOne";*/
+}
+.sommaire {
+	background-color:#666;
+	color:#FFF;
+	font-family:"Earthquake";
+	font-size:25px;
+
+}
+.sommaire > h1 {
+	font-size:50px;
+	font-weight:600;
+}
+
+code {
+	background-color:#F8F8F8;
+	border:1px solid #DDDDDD;
+	border-radius:3px;
+}
+.texte {
+	word-spacing:5px;
+}
+/** NOT SUPPORTED STYLES **/
+.not-supported .step {
+	position: relative;
+	opacity: 1;
+	margin: 20px auto;
+}
+
+/** PRINT STYLE **/
+@media print {
+	body {
+		background: white;
+	}
+	.hint {
+		display: none;
+	}
+	#simple {
+		width: auto; 
+		margin: 0 20%;
+		padding: 0; 
+		border: 0;
+		float: none !important;
+		color: black; 
+		background: transparent;
+	}
+	.step {
+		page-break-after: always;
+		opacity: 1;
+		clear: both;
+		display: block;
+		float: none !important;
+		position: relative;
+		margin: 20px 100px;
+
+		-webkit-transition: rotate(0deg);
+		-moz-transition:    rotate(0deg);
+		-ms-transition:     rotate(0deg);
+		-o-transition:      rotate(0deg);
+		transition:         rotate(0deg);
+	}
+	.step:not(.active) {
+		opacity: 1;
+	}
+}

@@ -1,0 +1,10 @@
+c:\users\samsung\documents\visual studio 2012\Projects\projettablesismique-analyse-bta1-verbose\projettablesismique-analyse-bta1-verbose\bin\Debug\projettablesismique-analyse-bta1-verbose.exe.config
+c:\users\samsung\documents\visual studio 2012\Projects\projettablesismique-analyse-bta1-verbose\projettablesismique-analyse-bta1-verbose\bin\Debug\projettablesismique-analyse-bta1-verbose.exe
+c:\users\samsung\documents\visual studio 2012\Projects\projettablesismique-analyse-bta1-verbose\projettablesismique-analyse-bta1-verbose\bin\Debug\projettablesismique-analyse-bta1-verbose.pdb
+c:\users\samsung\documents\visual studio 2012\Projects\projettablesismique-analyse-bta1-verbose\projettablesismique-analyse-bta1-verbose\bin\Debug\projettablesismique-analyse-bta1-verbose.xml
+c:\users\samsung\documents\visual studio 2012\Projects\projettablesismique-analyse-bta1-verbose\projettablesismique-analyse-bta1-verbose\obj\Debug\projettablesismique_analyse_bta1_verbose.Form1.resources
+c:\users\samsung\documents\visual studio 2012\Projects\projettablesismique-analyse-bta1-verbose\projettablesismique-analyse-bta1-verbose\obj\Debug\projettablesismique_analyse_bta1_verbose.Resources.resources
+c:\users\samsung\documents\visual studio 2012\Projects\projettablesismique-analyse-bta1-verbose\projettablesismique-analyse-bta1-verbose\obj\Debug\projettablesismique-analyse-bta1-verbose.vbproj.GenerateResource.Cache
+c:\users\samsung\documents\visual studio 2012\Projects\projettablesismique-analyse-bta1-verbose\projettablesismique-analyse-bta1-verbose\obj\Debug\projettablesismique-analyse-bta1-verbose.exe
+c:\users\samsung\documents\visual studio 2012\Projects\projettablesismique-analyse-bta1-verbose\projettablesismique-analyse-bta1-verbose\obj\Debug\projettablesismique-analyse-bta1-verbose.xml
+c:\users\samsung\documents\visual studio 2012\Projects\projettablesismique-analyse-bta1-verbose\projettablesismique-analyse-bta1-verbose\obj\Debug\projettablesismique-analyse-bta1-verbose.pdb

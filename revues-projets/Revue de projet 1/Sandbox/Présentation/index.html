@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<title>Essai</title>
+	<meta name="description" content="jmpress.js is a jQuery plugin to build a website on the infinite canvas">
+	<meta name="author" content="Kyle Robinson Young @shama & Tobias Koppers @sokra" />
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=yes" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<link href="simple.css" rel="stylesheet" type="text/css" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="scrolling/onepage-scroll.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="sunlight.dark.css" />
+    <script type="text/javascript" src="sunlight-min.js"></script>
+    <script type="text/javascript" src="sunlight.vb-min.js"></script>
+
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="jmpress.custom.js"></script>
+    <script type="text/javascript" src="scrolling/jquery.onepage-scroll.js"></script>
+</head>
+<body>
+
+<div id="simple">
+
+	<div id="home" class="step">
+    <br><br>
+    <div class="bandeau">
+		<span class="titre">La table sismique</span>
+    </div>
+    <br><br><br>
+    <img src="seismogram.jpg" height="150" width="350"><br>
+    <!--<img src="title.jpg" height="100" width="100" >-->
+    <br><br>
+        <font size="+3">Revue de Projet n°1 par Aurélien Surier Garofalo</font><br>
+        <i>Projet en coopération avec Alexandre Jacquemin, Nathan Villemot & Baptiste Tulon.</i>
+	</div>
+    
+	<div class="step sommaire" data-x="1200">
+		<h1>Sommaire</h1>
+        <p>a. Introduction</p>
+        <p>b. Mise en place du projet</p>
+        <p>c. Définition des besoins</p>
+        <p>d. Contraintes (sociales, technologiques, économiques)</p>
+        <p>e. Solutions techniques envisagées</p>
+        <p>f. Conclusion</p>
+	</div>
+    
+	<div class="step" data-x="2400">
+		<div class="slider">
+        	<div class="section1"><p>Essai1</p></div>
+        	<div class="section1"><p>Voili voilou</p></div>
+        </div>
+	</div>
+
+    
+    <div class="step section" data-x="3600">
+		<p>L'électronique</p>
+	</div>
+    
+    <div class="step texte" data-x="4800">
+		<p>Essai texte formaté</p>
+                <br>
+        <p>Nous avons utilisés plusieurs trucs : 2 <code>roues codeuses</code>, 2 <code>afficheurs 7 segments</code>. Entre ces deux composants on doit brancher un convertisseur BCD/7 segments</p>
+	</div>
+
+    <div class="step section" data-x="6000">
+		<p>Un système autonome</p>
+	</div>
+	
+    <div class="step texte" data-x="7200">
+		<p>La communication PC/montage</p>
+                <br>
+        <p>Liaison USB (Port série virtuel) vers TTL</p>
+        <p><p>
+        <p>Signal d'horloge : état de RTX</p>
+	</div>
+    
+    <div class="step texte" data-x="8400">
+		<p>Le code</p>
+        <div class="demo">
+		<pre class="sunlight-highlight-vb">
+			#Region "WriteData"
+Public Sub WriteData(ByVal msg As String)
+Select Case CurrentTransmissionType
+	Case TransmissionType.Text
+		'first make sure the port is open
+		'if its not open then open it
+		If Not (comPort.IsOpen = True) Then
+			comPort.Open()
+		End If
+		</pre>
+		</div>
+		<script type="text/javascript">
+        Sunlight.highlightAll();
+        </script>
+    </div>
+    
+    <div class="step texte" data-x="9600">
+		<p>L'électronique</p>
+        <p>Câble FTDI : émulation d'un port série RS232 depuis une USB.</p>
+        <br>
+        <p>Sortie sur <code>CTD</code> de l'entrée du <code>compteur décade</code> des untités</p>
+    </div>
+    <!--
+    <div class="step section" data-x="7200">
+		<p>Pour conclure...</p>
+	</div>
+    
+    <div class="step" data-x="8400">
+		<p>Merci !</p>
+		<div class="b demo">
+		<img src="merci.jpg"></img>
+	</div>
+    </div>
+    -->
+</div>
+
+
+<script type="text/javascript">
+$(function() {
+	$('#simple').jmpress();
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".slider").onepage_scroll({
+   sectionContainer: ".section1",
+   easing: "ease",
+   animationTime: 1000,
+   pagination: true,
+   updateURL: false
+});
+});
+
+</script>
+
+</body>
+</html>

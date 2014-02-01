@@ -1,0 +1,26 @@
+.item {
+	
+}
+
+
+
+
+
+.titre {
+	font-size: 21px;
+	color: #808080;
+	}
+	
+.date {
+	font-size: 18px;
+	color: #85cefa;
+}
+
+.article:hover {
+	background-color: #ccc;
+	}
+	
+.image {
+	width: 200px;
+	height: 200px;
+}
