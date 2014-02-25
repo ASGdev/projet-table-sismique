@@ -14,7 +14,7 @@ Pour en savoir plus : <a href="http://asgdev.amon-internet.fr/projet/">asgdev.am
 
 ### Avançement général :
 
- 0 === 15%
+ 0 ============ 65%
  
 ### Log :
 
